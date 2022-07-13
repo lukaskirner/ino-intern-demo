@@ -1,0 +1,17 @@
+{
+    "name": "ConnectionClient",
+    "description": "Library to connect to a MQTT broker via Wi-Fi",
+    "frameworks": ["arduino"],
+    "dependencies": [
+        {
+            "owner": "knolleary",
+            "name": "PubSubClient",
+            "version": "^2.8"
+        },
+        {
+            "owner": "bblanchon",
+            "name": "ArduinoJson",
+            "version": "^6.18.0"
+        }
+    ]
+}
